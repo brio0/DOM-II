@@ -22,7 +22,7 @@ imgFluid.addEventListener('onmouseover', evt => {
 })
 
 const header = document.querySelector('.intro')
-window.addEventListener('keydown', evt => {
+document.addEventListener('keydown', evt => {
     if (evt.key === 'x') {
         header.remove()
     }
