@@ -10,3 +10,8 @@ const destination = document.querySelector('.content-destination h2');
 destination.addEventListener('click', () => {
     destination.textContent = 'COME ON, JUST PICK A PLACE!!'
 })
+
+const foot = document.querySelector('.footer')
+foot.addEventListener('dblclick', (evt) => {
+    evt.target.outerHTML = ''
+})
