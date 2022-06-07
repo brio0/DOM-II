@@ -17,7 +17,7 @@ foot.addEventListener('dblclick', (evt) => {
 })
 
 const imgFluid = document.querySelector('.content-destination p');
-imgFluid.addEventListener('onmouseover', evt => {
+imgFluid.addEventListener('mouseover', evt => {
     evt.target.style.color = 'green'
 })
 
