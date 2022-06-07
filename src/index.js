@@ -15,3 +15,15 @@ const foot = document.querySelector('.footer')
 foot.addEventListener('dblclick', (evt) => {
     evt.target.outerHTML = ''
 })
+
+const imgFluid = document.querySelector('.content-destination p');
+imgFluid.addEventListener('onmouseover', evt => {
+    evt.target.style.color = 'green'
+})
+
+const header = document.querySelector('.intro')
+window.addEventListener('keydown', evt => {
+    if (evt.key === 'x') {
+        header.remove()
+    }
+})
